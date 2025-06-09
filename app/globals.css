@@ -1,0 +1,11 @@
+@import './reset.css';
+@import 'tailwindcss';
+
+.custom-gradient {
+  color: #bdbdbd;
+  background: linear-gradient(to bottom right, #201f1c, #211e1c, #393531);
+}
+
+main {
+  background: linear-gradient(to bottom right, #201f1c, #211e1c, #393531);
+}

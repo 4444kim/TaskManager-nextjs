@@ -1,0 +1,39 @@
+# node modules
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# System
+.DS_Store
+
+# Env
+.env*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional VSCode settings
+.vscode/
+
+# Tailwind JIT cache (если используешь)
+.tailwind/
+
+# Coverage (если добавишь тесты)
+coverage/
+
+# Build artifacts
+dist/
+
+# Lockfiles (если используешь другой менеджер пакетов)
+package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
